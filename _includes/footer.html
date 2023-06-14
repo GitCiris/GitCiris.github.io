@@ -4,6 +4,17 @@
         <nav class="cover-navigation navigation--social">
           <ul class="navigation">
 
+            {% if site.social.qq %}
+          <!-- Github -->
+          <li class="navigation__item_social">
+            <a href="https://im.qq.com/{{site.social.qq}}" title="@{{site.social.qq}} 的 QQ" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/qq.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+
+          
+
           {% if site.social.github %}
           <!-- Github -->
           <li class="navigation__item_social">
@@ -16,8 +27,8 @@
           {% if site.social.zhihu %}
           <!-- Zhihu -->
           <li class="navigation__item_social">
-            <a href="https://www.zhihu.com/people/{{site.social.zhihu}}" title="@{{site.social.zhihu}}" target="_blank">
-              <div class="footer-social-icon" style="background:url(/images/zhihu.png);"></div>
+            <a href="https://im.qq.com/index/{{site.social.qq}}" title="@{{site.social.qq}}" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/qq.png);"></div>
             </a>
           </li>
 
