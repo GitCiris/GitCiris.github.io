@@ -14,7 +14,7 @@
           {%  if site.social.bilibili %}
           <!-- bilibili -->
           <li class="navigation__item_social">
-            <a href="https://www.bilibili.com/{{site.social.bilibili}}" title="@{{site.social.bilibili}}" target="_blank">
+            <a href="https://space.bilibili.com/{{site.social.bilibili}}" title="@{{site.social.bilibili}}" target="_blank">
               <div class="footer-social-icon" style="background:url(/images/bilibili.png);"></div>
             </a>
           </li>
@@ -22,11 +22,10 @@
          {% if site.social.zhihu %}
           <!-- Zhihu -->
           <li class="navigation__item_social">
-            <a href="https://www.bilibili.com/{{site.social.Zhihu}}" title="@{{site.social.zhihu}}" target="_blank">
-              <div class="footer-social-icon" style="background:url(/images/bilibili.png);"></div>
+            <a href="https://www.zhihu.com/people/{{site.social.zhihu}}" title="@{{site.social.zhihu}}" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/zhihu.png);"></div>
             </a>
           </li>
-
           {% endif %}
           {% if site.social.juejin %}
           <!-- Zhihu -->
@@ -35,6 +34,7 @@
               <div class="footer-social-icon" style="background:url(/images/juejin.png);"></div>
             </a>
           </li>
+          {% endif %}
           {% if site.social.jianshu %}
           <!-- jianshu -->
           <li class="navigation__item_social">
@@ -44,11 +44,10 @@
           </li>
 
           {% endif %}
-          {% endif %}
           {% if site.social.weibo %}
           <!-- Weibo -->
           <li class="navigation__item_social">
-            <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
+            <a href="http://weibo.com/u/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
               <div class="footer-social-icon" style="background:url(/images/weibo.png);"></div>
             </a>
           </li>
@@ -72,9 +71,6 @@
             </a>
           </li>
           {% endif %}
-          
-          
-
           </ul>
         </nav>
 
